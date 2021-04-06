@@ -1,0 +1,56 @@
+1slide
+ 
+hello my name is konstantin and this is my presentation on www html css
+
+2slide
+ The World Wide Web ("WWW" or "The Web") is a global information medium which users can access via computers connected to the Internet.
+комент к слайду 2
+ The term is often mistakenly used as a synonym for the Internet itself, but the Web is a service that operates over the Internet, just as email and Usenet also do. The history of the Internet dates back significantly further than that of the World Wide Web.
+
+The World Wide Web is made up of millions of web servers. Most of the resources of the World Wide Web are based on hypertext technologies. Hypertext documents posted on the World Wide Web are called web pages. Several websites that are united by a common common or website are called a website. To download and view web pages, special programs are used - browsers
+
+
+To create, store and display hypertext on the World Wide Web, the HTML language (English HyperText Markup Language) is traditionally used. The work of creating (marking up) hypertext documents is called layout, it is done by the webmaster or a separate markup specialist - the layout designer. After HTML markup, the resulting document is saved into a file, and such HTML files are the main type of resources on the World Wide Web. After the HTML file is available to the web server, it is referred to as a Уweb pageФ. A collection of web pages forms a website.
+
+3slide
+
+HTML (from English HyperText Markup Language - "hypertext markup language") is a standardized markup language for web pages on the World Wide Web. HTML code is interpreted by browsers; the resulting page is displayed on a computer monitor or mobile device.
+
+comment to 3 slode
+
+HTML was created as a language for the exchange of scientific and technical documentation, suitable for use by people who are not specialists in the field of layout
+
+переход к 3-1
+
+What is HTML? It is a hypertext markup language. It allows the user to create and structure sections, paragraphs, headings, links and blocks for web pages and applications.
+
+comment 3-1
+
+HTML is a tagged document markup language. Any HTML document is a set of elements, and the beginning and end of each element are designated by special marks - tags. Elements can be empty, that is, they do not contain any text or other data.
+In this case, the end tag is usually not specified (for example, the line break tag <br/> is single and does not need to be closed). In addition, elements can have attributes that define some of their properties (for example, the href = "attribute of the link). Attributes are specified in the opening tag. Here are examples of fragments of an HTML document:
+
+slide 3-2 last
+
+comment slide 3-2
+
+but just a set of tags in the browser will not look pretty
+
+
+what is missing?
+
+and adding beauty will help us css
+
+slide 4 comment
+
+CSS is used by web page creators to specify colors, fonts, styles, block placement, and other aspects of how these web pages appear. The main goal of CSS development was to separate the description of the logical structure of a web page (which is produced using HTML or other markup languages) from the description of the appearance of that web page (which is now produced using the formal language CSS). This separation can increase the accessibility of a document, provide more flexibility and control over its presentation, and reduce complexity and repetition in structured content.
+
+In addition, CSS allows the same document to be rendered in different styles or output methods, such as display, print, read by voice (with a dedicated voice browser or screen reader), or output from devices using braille
+
+slide 4-1
+
+Applying CSS to HTML documents is based on the principles of inheritance and cascading. The principle of inheritance is that CSS properties declared for ancestor elements are almost always inherited by descendant elements.
+
+наследование и каскадтрование
+slide 4-2
+
+with the addition of css, our page looks more readable and beautiful, that's all

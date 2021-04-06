@@ -1,0 +1,185 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: teal;
+    color:white;
+    font-weight: bold;
+}
+.arena{
+    height: 100vh;
+    margin: 0 auto;
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.arena >div {
+    background-size: 400px;
+}
+.arenaGame300{
+    width: 300px;
+    height: 300px;
+    margin:  0 auto 100px auto;
+    background-color: aquamarine;
+    position: relative;
+}
+.arenaGame400{
+    width: 400px;
+    height: 400px;
+    margin:  0 auto 100px auto;
+    background-color: aquamarine;
+    position: relative;
+}
+.arenaGame500{
+    width: 500px;
+    height: 500px;
+    margin:  0 auto 100px auto;
+    background-color: aquamarine;
+    position: relative;
+}
+.arenaGame600{
+    width: 600px;
+    height: 600px;
+    margin:  0 auto 100px auto;
+    background-color: aquamarine;
+    position: relative;
+}
+.arenaGame700{
+    width: 700px;
+    height: 700px;
+    margin:  0 auto 100px auto;
+    background-color: aquamarine;
+    position: relative;
+}
+.arenaGame800{
+    width: 800px;
+    height: 800px;
+    margin:  0 auto 100px auto;
+    background-color: aquamarine;
+    position: relative;
+}
+.onePuzle{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    background-size: 400px;
+    transition: all 0.35s; 
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.btn-start{
+    width:100px;
+    height: 50px;
+    background-color:green;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 9px;
+    border-bottom: 5px solid darkgreen;
+}
+.btn-img{
+    width: 121px;
+    height: 80px;
+    background-color:green;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.arena > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        
+}
+.panel{
+    width: 650px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+.panel > div:nth-child(5){
+    position: absolute;
+    bottom: 5px;
+    left: 15%;
+}
+.panel > div:nth-child(6){
+    position: absolute;
+    bottom: 5px;
+    left: 27%;
+    font-size: 1.5em;
+}
+.panel > div:nth-child(7){
+    position: absolute;
+    bottom: 5px;
+    left: 45%;
+    font-size: 1.5em;
+}
+.panel > div:nth-child(4){
+    position: absolute;
+    bottom: 5px;
+    right: 15%;
+}
+.arena > div:nth-child(1) > div:nth-child(5){
+    width: 10%;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    background-color: green;
+    
+    border-radius: 7px;
+    cursor: pointer;
+}
+.arena > div:nth-child(1) > div:nth-child(4){
+    width: 50px;
+    height: 25px;
+    background-color: dodgerblue;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 7px;
+}
+.btn-img-right, .btn-img-left{
+    position: absolute;
+    height: 80px;
+    width: 20px;
+    background-color:seagreen;
+    top: 0;
+}
+.btn-img-right{
+    right: 0;
+}
+.hide{
+    display: none;
+}
+.hovered{
+    background-color:red;
+}
+div.score{
+    position: absolute;
+    top: 150px;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color:seagreen;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+.score-open{
+    background-color:green ;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius:9px;
+}

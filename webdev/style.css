@@ -1,0 +1,455 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.conteiner{
+    width: 1600px;
+    margin: auto;
+}
+.header_wiuport{
+    position: relative;
+    width: 100%;
+    height: 744px;
+    background-image: url(assets/bg-image.png);
+    
+    
+}
+h2{
+    text-transform: uppercase;
+
+}
+header ul{
+    color: rgba(255,255,255,0.8);
+    margin: 0;
+    display: flex;
+    list-style: none;
+    height: 95px;
+    padding: 0;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    line-height: 21px;
+    font-size: 14px;
+    padding-top: 1px;
+}
+header ul li{
+    text-align: center;
+}
+header ul li:nth-child(1){
+    margin-right: 85px;
+}
+header ul li:nth-child(2){
+    margin-right: 102px;
+}
+header ul li:nth-child(4){
+    margin-right: 83px;
+}
+ul li.logo{
+    width: 44px;
+    height: 45px;
+    margin-right: 100px;
+}
+header ul li:hover{
+    cursor: pointer;
+    background-color:green;
+}
+header ul li.activ_li{
+    color:white;
+    border-bottom: 1px solid white;
+    margin-left: 2px;
+}
+.header_text{
+    width: 730px;
+}
+.header_text_h1{
+    position: absolute;
+    width: 738px;
+    height: 75px;
+    left: 434px;
+    top: 231px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.header_text_h1 span{
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.4px;
+    text-transform: uppercase;
+
+}
+.header_text_h1 h1{
+    display: none;
+}
+.header_text p{
+    position: absolute;
+    width: 504px;
+    height: 50px;
+    left: 548px;
+    top: 327px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 140%;
+    margin: 0;
+    text-align: center;
+}
+.button_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 184px;
+    height: 46px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background: #00AFDB;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+.button_link:hover{
+    background-color:#009CC2;
+}
+.header_btn{
+    left: 707px;
+    position: absolute;
+    top: 406px;
+}
+ul.social_icon{
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: 715px;
+    bottom: 89px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul.social_icon{
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: 715px;
+    bottom: 89px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+ul.social_icon li:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.main2{
+    width: 1600px;
+    height: 842px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: roboto, sans-serif;
+}
+.main2_text{
+    width: 407px;
+    height: 233px;
+    margin-bottom: 17px;
+    box-sizing: border-box;
+    padding-left: 6px;
+}
+.main2_img img{
+    width: 407px;
+    height: 582px;
+}
+.main2_text h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.main2_text p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+    margin: 20px 0 30px 0;
+    height: 80px;
+}
+.main2_img img{
+    position: absolute;
+    top: -10px;
+    left: -8px;
+}
+.main2_img{
+    position: relative;
+    width: 407px;
+    height: 582px;
+}
+.main3_slider{
+    width: 1600px;
+    height: 504px;
+    background-color: #F5F6F7;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    position: relative;
+}
+.main3_slider_img{
+    display: flex;
+    width: 894px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+.main3_slider_img img{
+    
+    width: 407px;
+    height: 244px;
+    margin-right: 30px;
+}
+.main3_slider_text{
+    width: 298px;
+    text-align: center;
+    margin-left: 270px;
+    
+}
+.img_list{
+    position: absolute;
+    top: 78px;
+    right: 248px;
+    font-size: 18px;
+    color: #373737;
+    line-height: 140%;
+    /* or 25px */
+    width: 103px;
+}
+.img_list span:last-child{
+    margin-left: 10px;
+}
+.img_list span:first-child{
+    margin-right: 10px;
+}
+.img_list span:hover:first-child, .img_list span:hover:last-child{
+    background-color:#373737;
+    cursor: pointer;
+    color:white;
+}
+.main3_slider_text h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.main3_slider_text p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 11px;
+    margin-bottom: 19px;
+}
+
+
+
+.main4{
+    width: 1600px;
+    height: 842px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.main4 div:first-child{
+    position: absolute;
+    top: 120px;
+    left: 269px;
+}
+.main4 img{
+    width: 407px;
+    height: 582px;
+}
+.main4_text{
+    width: 407px;
+    height: 184px;
+    position: absolute;
+    top:319px;
+    right: 378px;
+}
+.main4_text h2{
+    margin: 0;
+    letter-spacing: 1px;
+}
+.main4_text p{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 20px 0 29px 0;
+
+}
+.main4_text a{
+    width: 180px;
+}
+.main5{
+    width: 1600px;
+    height: 598px;
+    background-image: url(assets/pexels-christina-morillo-1181675.png);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.main5 h2{
+    margin: 0;
+    color:white;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 31px;
+    
+}
+.span_input{
+    display: flex;
+    width: 100%;
+    height: 46px;
+}
+.span_input input{
+    width: 340px;
+    border: none;
+    padding: 0 0 0 25px;
+    box-sizing:border-box;
+}
+.span_input span{
+    width: 66px;
+    background-color:#00AFDB;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.span_input:hover span{
+    background-color:#009CC2;
+    cursor: pointer;
+}
+
+.main5_text{
+    width: 406px;
+    height: 104px;
+    margin-bottom: 63px;
+}
+.main6{
+    width: 1600px;
+    height: 468px;
+    background-color:#F5F6F7;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.main6_text{
+    width: 483px;
+    height: 168px;
+    text-align: center;
+    margin-bottom: 62px;
+}
+.main6_text h2{
+    letter-spacing: 1px;
+    margin: 0;
+}
+.main6_text p{
+    font-size: 14px;
+    margin: 21px 0 30px 0;
+    line-height: 20px;
+}
+.platform_link{
+    display: flex;
+    width: 470px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.platform_link a{
+    width: 188px;
+    height: 50px;
+    color:white;
+    text-decoration: none;
+    display: flex;
+    background-color:#00AFDB;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 19px;
+    line-height: 15px;
+}
+.platform_link a:hover{
+    background-color:#009CC2;
+}
+.platform_link a:last-child{
+    padding-left: 15px;
+}
+.platform_link a span{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#009CC2;
+    box-sizing: border-box;
+    padding-bottom: 3px;
+}
+footer{
+    width: 1600px;
+    height: 184px;
+    position: relative;
+    background-color: #000000;
+    color:white;
+    display: flex;
+    
+}
+footer div p{
+    color:#818181;
+    position: absolute;
+    left: 1270px;
+    top: 75px;
+    margin: 0;
+    font-size: 14px;
+}
+footer img{
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: 778px;
+    top: 60px;
+}
+footer ul{
+    position: absolute;
+    left: 138px;
+    top: 61px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 268px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+footer ul li{
+    border-right: 1px solid white;
+    width: 85px;
+    text-align: center;
+}
+footer ul li:hover{
+    cursor: pointer;
+    background-color:grey;
+}
+footer ul li:last-child{
+    border:none;
+}
+footer ul li:nth-child(2){
+    padding-right: 7px;
+}

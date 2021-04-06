@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@keyframes btnBorder{
+  0%{
+    border-top-color:white ;
+    border-bottom-color:white ;
+    border-right-color:red;
+    border-left-color:red;
+  }
+  
+  50%{
+    border-top-color:red ;
+    border-bottom-color:red ;
+    border-right-color:white;
+    border-left-color:white;
+  }
+  
+  100%{
+    border-top-color:white ;
+    border-bottom-color:white ;
+    border-right-color:red;
+    border-left-color:red;
+  }
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  color: white;
+  transition: background-image 1s ease-in-out;
+  background-repeat: no-repeat;
+  background-size:auto;
+}
+
+.time {
+  font-size: 2rem;
+  width: 100%;
+}
+.time span:first-child{
+  background-color:white;
+  color:red;
+  width: 100%;
+  display: flex;
+  box-sizing:border-box;
+  padding-left: 35%;
+}
+.time span:last-child{
+  font-size: 1.5rem;
+}
+h1 {
+  margin-bottom: 3rem;
+  display:flex;
+}
+h1 span:first-child{
+  display: block;
+  margin-right: 10px;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+.imageBtn{
+  color:white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 10px solid red;
+  background-color: rgba(255,0,0,0.6);
+  
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-size: 3.5em;
+  line-height: 80px;
+  cursor: pointer;
+  animation: btnBorder ease-in-out 3s infinite;
+}
+.conteiner{
+    width: 55%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+time span{
+  display: inline-block;
+}
+figure{
+  width: 74%;
+  background-color: white;
+  color: black;
+  padding: 21px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-self: flex-end;
+  position: relative;
+  margin: 5px;
+}
+figure .btn{
+  position: absolute;
+  top: 35px;
+  left: -80px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 5px solid black;
+  animation: btnBorder ease-in-out 3s infinite;
+  background-color: rgba(255,0,0,0.6);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 8px;
+  cursor: pointer;
+}
+blockquote{
+  font-family: monospace;
+  font-size: 17px;
+}
+blockquote:after{
+  content:' ❞';
+}
+blockquote:before{
+  content:'❝ ';
+}
+figcaption{
+  align-self: flex-end;
+  margin-top: 15px;
+}
+.pogoda{
+  width: 55%;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+.pogoda div:first-child{
+  padding: 5px;
+  background-color: white;
+  color: red;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 100%;
+  border: 1px solid black;
+}
+.weather-description{
+  align-self:center;
+}
+.pogoda i{
+  align-self: center;
+  font-size: 4em;
+  order: 2;
+}
+@media (max-width: 800px) {
+  .pogoda{
+    width: 70%;
+  }
+  .conteiner{
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .pogoda{
+    width: 100%;
+  }
+  .conteiner{
+    width: 100%;
+  }
+}
